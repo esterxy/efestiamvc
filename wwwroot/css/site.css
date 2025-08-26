@@ -1,0 +1,209 @@
+/* 1. Variáveis de Cor e Reset Básico */
+        :root {
+            --primary-color: #0D0D0D; /* Preto */
+            --secondary-color: #161616; /* Preto meio claro */
+            --accent-color: #1403ff; /* Azivis */
+            --text-color: #ffffff; /* Branco */
+            --bg-color: #000000; /* Fundo escuro */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* 2. Utilitários */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        /* 3. Header e Navegação */
+        .main-header {
+            background-color: rgba(36, 36, 36, 0.041);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo a {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: white;
+            text-decoration: none;
+        }
+
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .main-nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .main-nav a:hover {
+            color: var(--accent-color);
+        }
+        
+        /* 4. Seção Hero (Principal) */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 100vh;
+            padding-top: 80px; /* Espaço para o header fixo */
+
+        }
+        /* ADICIONE ISTO: Centraliza todo o conteúdo da seção hero */
+        .hero .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .hero h1 span {
+            color: var(--accent-color);
+        }
+        
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+            color: #ffffff;
+        }
+        
+        .cta-button {
+            background-color: rgba(0, 0, 0, 0.342);
+            color: #ffffff;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            display: inline-block;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .cta-button:hover {
+            background-color: #ffffff;
+            color: black;
+            transform: translateY(-3px);
+        }
+
+        /* 5. Estilos de Seção Genéricos */
+        .section {
+            padding: 100px 0;
+            border-top: 1px solid #1a1a1a;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+        }
+        
+        /* 6. Seção de Serviços */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background: linear-gradient(50deg, #000000, #ffffff17);
+            padding: 2rem;
+            border-radius: 1rem;
+            border-left: 6px solid white;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+
+        /* 7. Footer */
+        .main-footer {
+            text-align: center;
+            padding: 2rem 0;
+            border-top: 1px solid #1a1a1a;
+            font-size: 0.9rem;
+            color: #ffffff;
+        }
+        
+        .social-links {
+            margin-bottom: 1rem;
+        }
+        
+        .social-links a {
+            margin: 0 0.5rem;
+            color: var(--text-color);
+            transition: color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            color: var(--secondary-color);
+        }
+        
+        .social-links svg {
+            width: 24px;
+            height: 24px;
+        }
+
+        /* 8. Responsividade */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }

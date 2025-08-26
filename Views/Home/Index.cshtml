@@ -1,0 +1,86 @@
+﻿@{
+    // Este bloco de código C# no topo é opcional.
+    // Você pode definir o título da página dinamicamente, por exemplo.
+    ViewData["Title"] = "EfestIA - Forjando Defesas Inteligentes para Você";
+}
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    @* O caminho para o CSS agora usa o "~" para apontar para a raiz da wwwroot *@
+    <link rel="stylesheet" href="~/css/site.css">
+
+</head>
+
+<body>
+
+    
+
+    <main id="hero" class="hero">
+        <div class="container">
+            <h1>Forjando defesas<br><span>inteligentes</span> para você.</h1>
+            <p>Nossa plataforma simula ataques em ambientes controlados, detecta vulnerabilidades e gera relatórios precisos com sugestões práticas para sua equipe técnica.</p>
+            <a href="#contratar" class="cta-button">CONTRATE JÁ</a>
+        </div>
+    </main>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <div style="text-align: center; margin-top: 20px;">
+                <img src="~/images/logoefestia.png" alt="Logo EfestIA grande" width="150" height="120">
+                <h2 class="section-title">Sobre</h2>
+
+                <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    A EfestIA nasceu da união entre a paixão pela cibersegurança e a convicção de que a inteligência artificial é a chave para o futuro da proteção digital. Somos uma equipe comprometida em desenvolver defesas inteligentes, adaptativas e impenetráveis — combinando tecnologia de ponta com uma mentalidade ofensiva estratégica. Nosso propósito é claro: permitir que sua empresa inove com segurança, autonomia e confiança total.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="quemsomos" class="section">
+        <div class="container" style="text-align: center; margin-top: 20px;">
+            <img src="~/images/logoniokaji.png" alt="Logo Niō Kaji" width="150" height="150">
+            <h2 class="section-title">Quem somos</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto;">Niō Kaji é uma empresa de tecnologia fundada sob o princípio de que proteger é tão essencial quanto inovar. Inspirada nos guardiões budistas Niō, figuras que representam a proteção ativa e passiva, a empresa carrega em seu nome o compromisso de forjar soluções digitais com força, precisão e propósito. Acreditamos que no mundo atual, os dados são o novo bem mais precioso — e ao mesmo tempo, o mais vulnerável. Em um cenário onde negócios, governos e pessoas se conectam constantemente, proteger essas informações com inteligência, responsabilidade e tecnologia é mais do que uma obrigação: é uma missão. Entre nossos projetos está a EfestIA, uma iniciativa focada em segurança ofensiva e testes de vulnerabilidade, que representa nossa visão de um futuro onde as defesas são forjadas com a mesma intensidade das ameaças.</p>
+        </div>
+    </section>
+
+    <section id="servicos" class="section">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Simulação de Ataques (Pentest as a Service)</h3>
+                    <p>Utilizamos IA para simular ataques realistas e contínuos, identificando brechas antes que se tornem um problema real.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Análise de Vulnerabilidades</h3>
+                    <p>Escaneamento profundo e inteligente de suas aplicações e infraestrutura para encontrar e classificar pontos fracos.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Relatórios Técnicos Inteligentes</h3>
+                    <p>Geramos relatórios detalhados com as descobertas e, mais importante, com planos de ação claros e priorizados para sua equipe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contratar" class="section">
+        <div class="container" style="text-align: center;">
+            <h2 class="section-title">Pronto para Fortalecer sua Defesa?</h2>
+            <p>Entre em contato e descubra como a EfestIA pode blindar sua organização.</p>
+            <br>
+            <a href="mailto:contato@efestia.com" class="cta-button">FALE COM UM ESPECIALISTA</a>
+        </div>
+    </section>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - efestiamvc</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/efestiamvc.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                @* O caminho da imagem também foi ajustado *@
+                <a href="#hero"><img src="~/images/logoefestia.png" alt="Logo EfestIA" width="35" height="25"> EfestIA</a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#quemsomos">Quem Somos</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contratar">Contratar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://discord.gg/hUy7adxt4D" aria-label="Junte-se ao nosso Discord" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71 55" fill="currentColor" width="32" height="32">
+                        <path d="M60.104 4.552A58.72 58.72 0 0046.852.8a41.454 41.454 0 00-1.984 4.096 55.424 55.424 0 00-16.736 0A41.454 41.454 0 0026.148.8 58.72 58.72 0 0012.896 4.552C5.808 16.136 4.048 27.384 4.904 38.52a59.92 59.92 0 0017.128 8.912 44.312 44.312 0 003.744-6.048 38.432 38.432 0 01-5.872-2.832c.496-.36.976-.736 1.44-1.12a42.144 42.144 0 0026.512 0c.472.4.952.776 1.44 1.12a38.488 38.488 0 01-5.872 2.832 44.312 44.312 0 003.744 6.048 59.92 59.92 0 0017.128-8.912c.984-12.216-.88-23.448-7.968-33.968zM24.24 36.384c-3.2 0-5.808-2.928-5.808-6.528s2.592-6.544 5.808-6.544c3.232 0 5.824 2.944 5.808 6.544.016 3.6-2.576 6.528-5.808 6.528zm22.512 0c-3.2 0-5.808-2.928-5.808-6.528s2.592-6.544 5.808-6.544c3.232 0 5.824 2.944 5.808 6.544.016 3.6-2.576 6.528-5.808 6.528z" />
+                    </svg>
+                </a>
+            </div>
+            <p>© 2025 Niō Kaji • Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
