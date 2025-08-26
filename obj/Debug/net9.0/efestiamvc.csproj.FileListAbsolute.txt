@@ -94,3 +94,5 @@ C:\Users\gusta\Documents\TestesEfestia\efestiamvc\obj\Debug\net9.0\efestiamvc.ge
 C:\Users\gusta\Documents\TestesEfestia\efestiamvc\obj\Debug\net9.0\ref\efestiamvc.dll
 C:\Users\gusta\Documents\TestesEfestia\efestiamvc\obj\Debug\net9.0\compressed\lk6pfrd8n3-j3opfa8nfo.gz
 C:\Users\gusta\Documents\TestesEfestia\efestiamvc\obj\Debug\net9.0\compressed\c0ajewdaq9-3r8b2a0bt1.gz
+C:\Users\gusta\Documents\TestesEfestia\efestiamvc\obj\Debug\net9.0\efestiamvc.sourcelink.json
+C:\Users\gusta\Documents\TestesEfestia\efestiamvc\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
