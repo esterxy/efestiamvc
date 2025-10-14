@@ -54,24 +54,39 @@
     </section>
 
     <section id="servicos" class="section">
-        <div class="container">
-            <h2 class="section-title">Nossos Serviços</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Simulação de Ataques (Pentest as a Service)</h3>
-                    <p>Utilizamos IA para simular ataques realistas e contínuos, identificando brechas antes que se tornem um problema real.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Análise de Vulnerabilidades</h3>
-                    <p>Escaneamento profundo e inteligente de suas aplicações e infraestrutura para encontrar e classificar pontos fracos.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Relatórios Técnicos Inteligentes</h3>
-                    <p>Geramos relatórios detalhados com as descobertas e, mais importante, com planos de ação claros e priorizados para sua equipe.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div class="container">
+    <h2 class="section-title">Nossos Serviços</h2>
+    <div class="carousel" aria-roledescription="carousel">
+      <div class="carousel__viewport" id="carouselViewport">
+        <article class="carousel__slide" role="group" aria-roledescription="slide" aria-label="1 de 3">
+          <div class="service-card">
+            <h3>Simulação de Ataques (Pentest as a Service)</h3>
+            <p>Utilizamos IA para simular ataques realistas e contínuos, identificando brechas antes que se tornem um problema real.</p>
+          </div>
+        </article>
+        <article class="carousel__slide" role="group" aria-roledescription="slide" aria-label="2 de 3">
+          <div class="service-card">
+            <h3>Análise de Vulnerabilidades</h3>
+            <p>Escaneamento profundo e inteligente de suas aplicações e infraestrutura para encontrar e classificar pontos fracos.</p>
+          </div>
+        </article>
+        <article class="carousel__slide" role="group" aria-roledescription="slide" aria-label="3 de 3">
+          <div class="service-card">
+            <h3>Relatórios Técnicos Inteligentes</h3>
+            <p>Geramos relatórios detalhados com as descobertas e, mais importante, com planos de ação claros e priorizados para sua equipe.</p>
+          </div>
+        </article>
+      </div>
+      <button class="carousel__control carousel__control--prev" id="prevBtn" aria-label="Slide anterior">‹</button>
+      <button class="carousel__control carousel__control--next" id="nextBtn" aria-label="Próximo slide">›</button>
+      <div class="carousel__indicators" id="indicators" role="tablist" aria-label="Navegação do carrossel">
+        <button class="carousel__indicator" data-slide="0" aria-label="Ir para o slide 1" role="tab" aria-selected="true"></button>
+        <button class="carousel__indicator" data-slide="1" aria-label="Ir para o slide 2" role="tab" aria-selected="false"></button>
+        <button class="carousel__indicator" data-slide="2" aria-label="Ir para o slide 3" role="tab" aria-selected="false"></button>
+      </div>
+    </div>
+  </div>
+</section>
 
     <section id="contratar" class="section">
         <div class="container" style="text-align: center;">
@@ -81,6 +96,6 @@
             <a href="mailto:contato@efestia.com" class="cta-button">FALE COM UM ESPECIALISTA</a>
         </div>
     </section>
-
+    <script src="/wwwroot/js/site.js"></script>
 </body>
 </html>
