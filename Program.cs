@@ -3,7 +3,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-var app = builder.Build();
+
+var app = builder.Build(); // <-- MOVIDO PARA CIMA: Agora 'app' existe!
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -14,16 +15,15 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles(); // <-- ADICIONADO AQUI, ONDE DEVE ESTAR
+
 app.UseRouting();
 
-app.UseAuthorization();
-
-app.MapStaticAssets();
+app.UseAuthorization(); // <-- REMOVIDO UMA DUPLICAÇÃO
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 
 app.Run();
