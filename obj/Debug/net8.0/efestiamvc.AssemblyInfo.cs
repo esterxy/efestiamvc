@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("efestiamvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+413fedc62f764435345cf5bff591f2ad06daaa0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b13c2fd8e9da6f5abc4abf8562253d32498e1c69")]
 [assembly: System.Reflection.AssemblyProductAttribute("efestiamvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("efestiamvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
