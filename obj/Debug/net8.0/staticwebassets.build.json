@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bl/EHUdso4VYlIkH3GXKvdOeLVpPqsFy+KR3Msb0nhc=",
+  "Hash": "ITxIxBIa3By3xFvQh3FLVRQrAyp6KJR8s+7AM5XvIo4=",
   "Source": "efestiamvc",
   "BasePath": "_content/efestiamvc",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\sheil\\Downloads\\efestiamvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\efestiamvc.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\css\\estilos.css",
+      "SourceId": "efestiamvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\",
+      "BasePath": "_content/efestiamvc",
+      "RelativePath": "css/estilos#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f2ac31kmtx",
+      "Integrity": "CfuHKwQz74bjCp49X7+S+Dx8s3kjceXBb/IS0q5+Aqw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\estilos.css"
+    },
+    {
       "Identity": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\css\\site.css",
       "SourceId": "efestiamvc",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wwuqmjgzet",
-      "Integrity": "AB/5CNg16hX5VKVT8x0+wSzaHlqVBn8Hlmq3L3R32cM=",
+      "Fingerprint": "po57wic9fi",
+      "Integrity": "icB0SdY03tcNooyETsLNxk/rKggj7Pq3v0icSPNeKRM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -157,8 +178,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7g9zer52tr",
-      "Integrity": "lwSwNVKg0+ZWGtLdyJrhiLCGJRgMsdnaL/qabNXn8Ls=",
+      "Fingerprint": "t40tqygjfi",
+      "Integrity": "7YcPuu91xyVAPSZASRYR9+laJDdy9RXl74P17u/XZfA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1447,6 +1468,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/estilos.css",
+      "AssetFile": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\css\\estilos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CfuHKwQz74bjCp49X7+S+Dx8s3kjceXBb/IS0q5+Aqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Oct 2025 16:22:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CfuHKwQz74bjCp49X7+S+Dx8s3kjceXBb/IS0q5+Aqw="
+        }
+      ]
+    },
+    {
+      "Route": "css/estilos.f2ac31kmtx.css",
+      "AssetFile": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\css\\estilos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CfuHKwQz74bjCp49X7+S+Dx8s3kjceXBb/IS0q5+Aqw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Oct 2025 16:22:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f2ac31kmtx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/estilos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CfuHKwQz74bjCp49X7+S+Dx8s3kjceXBb/IS0q5+Aqw="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1457,7 +1560,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5332"
+          "Value": "4850"
         },
         {
           "Name": "Content-Type",
@@ -1465,11 +1568,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AB/5CNg16hX5VKVT8x0+wSzaHlqVBn8Hlmq3L3R32cM=\""
+          "Value": "\"icB0SdY03tcNooyETsLNxk/rKggj7Pq3v0icSPNeKRM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Oct 2025 23:58:03 GMT"
+          "Value": "Thu, 16 Oct 2025 00:09:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1479,12 +1582,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AB/5CNg16hX5VKVT8x0+wSzaHlqVBn8Hlmq3L3R32cM="
+          "Value": "sha256-icB0SdY03tcNooyETsLNxk/rKggj7Pq3v0icSPNeKRM="
         }
       ]
     },
     {
-      "Route": "css/site.wwuqmjgzet.css",
+      "Route": "css/site.po57wic9fi.css",
       "AssetFile": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1494,7 +1597,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5332"
+          "Value": "4850"
         },
         {
           "Name": "Content-Type",
@@ -1502,11 +1605,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AB/5CNg16hX5VKVT8x0+wSzaHlqVBn8Hlmq3L3R32cM=\""
+          "Value": "\"icB0SdY03tcNooyETsLNxk/rKggj7Pq3v0icSPNeKRM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Oct 2025 23:58:03 GMT"
+          "Value": "Thu, 16 Oct 2025 00:09:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1516,7 +1619,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wwuqmjgzet"
+          "Value": "po57wic9fi"
         },
         {
           "Name": "label",
@@ -1524,7 +1627,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AB/5CNg16hX5VKVT8x0+wSzaHlqVBn8Hlmq3L3R32cM="
+          "Value": "sha256-icB0SdY03tcNooyETsLNxk/rKggj7Pq3v0icSPNeKRM="
         }
       ]
     },
@@ -1939,51 +2042,6 @@
       ]
     },
     {
-      "Route": "js/site.7g9zer52tr.js",
-      "AssetFile": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1884"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lwSwNVKg0+ZWGtLdyJrhiLCGJRgMsdnaL/qabNXn8Ls=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 15 Oct 2025 23:36:13 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7g9zer52tr"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-lwSwNVKg0+ZWGtLdyJrhiLCGJRgMsdnaL/qabNXn8Ls="
-        }
-      ]
-    },
-    {
       "Route": "js/site.js",
       "AssetFile": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1994,7 +2052,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1884"
+          "Value": "1811"
         },
         {
           "Name": "Content-Type",
@@ -2002,11 +2060,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"lwSwNVKg0+ZWGtLdyJrhiLCGJRgMsdnaL/qabNXn8Ls=\""
+          "Value": "\"7YcPuu91xyVAPSZASRYR9+laJDdy9RXl74P17u/XZfA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Oct 2025 23:36:13 GMT"
+          "Value": "Thu, 16 Oct 2025 00:09:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2016,7 +2074,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-lwSwNVKg0+ZWGtLdyJrhiLCGJRgMsdnaL/qabNXn8Ls="
+          "Value": "sha256-7YcPuu91xyVAPSZASRYR9+laJDdy9RXl74P17u/XZfA="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.t40tqygjfi.js",
+      "AssetFile": "C:\\Users\\sheil\\Downloads\\efestiamvc\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7YcPuu91xyVAPSZASRYR9+laJDdy9RXl74P17u/XZfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 16 Oct 2025 00:09:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t40tqygjfi"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7YcPuu91xyVAPSZASRYR9+laJDdy9RXl74P17u/XZfA="
         }
       ]
     },
