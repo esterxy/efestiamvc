@@ -17,7 +17,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3968"
+          "Value": "4470"
         },
         {
           "Name": "Content-Type",
@@ -25,22 +25,22 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CfuHKwQz74bjCp49X7+S+Dx8s3kjceXBb/IS0q5+Aqw=\""
+          "Value": "\"x26zEWxDIlo4Qsu/H7eQhecXQqykhvBLFeVO1K8HQd4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Oct 2025 16:22:02 GMT"
+          "Value": "Sun, 19 Oct 2025 16:53:55 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CfuHKwQz74bjCp49X7+S+Dx8s3kjceXBb/IS0q5+Aqw="
+          "Value": "sha256-x26zEWxDIlo4Qsu/H7eQhecXQqykhvBLFeVO1K8HQd4="
         }
       ]
     },
     {
-      "Route": "css/estilos.f2ac31kmtx.css",
+      "Route": "css/estilos.n0n53yox98.css",
       "AssetFile": "css/estilos.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -54,7 +54,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3968"
+          "Value": "4470"
         },
         {
           "Name": "Content-Type",
@@ -62,25 +62,70 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CfuHKwQz74bjCp49X7+S+Dx8s3kjceXBb/IS0q5+Aqw=\""
+          "Value": "\"x26zEWxDIlo4Qsu/H7eQhecXQqykhvBLFeVO1K8HQd4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 19 Oct 2025 16:22:02 GMT"
+          "Value": "Sun, 19 Oct 2025 16:53:55 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "f2ac31kmtx"
+          "Value": "n0n53yox98"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CfuHKwQz74bjCp49X7+S+Dx8s3kjceXBb/IS0q5+Aqw="
+          "Value": "sha256-x26zEWxDIlo4Qsu/H7eQhecXQqykhvBLFeVO1K8HQd4="
         },
         {
           "Name": "label",
           "Value": "css/estilos.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/site.3vg0vs0wbt.css",
+      "AssetFile": "css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X8Q7NWsFxw4WtVFOfQ1qsngMS5Lt0zpMYoDz87oyt8s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Oct 2025 16:58:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3vg0vs0wbt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X8Q7NWsFxw4WtVFOfQ1qsngMS5Lt0zpMYoDz87oyt8s="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
         }
       ]
     },
@@ -107,62 +152,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"icB0SdY03tcNooyETsLNxk/rKggj7Pq3v0icSPNeKRM=\""
+          "Value": "\"X8Q7NWsFxw4WtVFOfQ1qsngMS5Lt0zpMYoDz87oyt8s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 16 Oct 2025 00:09:06 GMT"
+          "Value": "Sun, 19 Oct 2025 16:58:09 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-icB0SdY03tcNooyETsLNxk/rKggj7Pq3v0icSPNeKRM="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.po57wic9fi.css",
-      "AssetFile": "css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4850"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"icB0SdY03tcNooyETsLNxk/rKggj7Pq3v0icSPNeKRM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 16 Oct 2025 00:09:06 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "po57wic9fi"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-icB0SdY03tcNooyETsLNxk/rKggj7Pq3v0icSPNeKRM="
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
+          "Value": "sha256-X8Q7NWsFxw4WtVFOfQ1qsngMS5Lt0zpMYoDz87oyt8s="
         }
       ]
     },
@@ -193,7 +193,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Oct 2025 23:48:40 GMT"
+          "Value": "Sun, 19 Oct 2025 17:07:16 GMT"
         }
       ],
       "EndpointProperties": [
@@ -238,7 +238,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 15 Oct 2025 23:48:40 GMT"
+          "Value": "Sun, 19 Oct 2025 17:07:16 GMT"
         }
       ],
       "EndpointProperties": [
@@ -331,6 +331,88 @@
       ]
     },
     {
+      "Route": "images/logoefestia copy.4l6zjsh8k0.png",
+      "AssetFile": "images/logoefestia copy.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "170588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GP+v3w6MG60vtErpl/V8+7xiG0r22MRpKt5pEdId/Xg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Oct 2025 16:58:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4l6zjsh8k0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GP+v3w6MG60vtErpl/V8+7xiG0r22MRpKt5pEdId/Xg="
+        },
+        {
+          "Name": "label",
+          "Value": "images/logoefestia copy.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/logoefestia copy.png",
+      "AssetFile": "images/logoefestia copy.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "170588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GP+v3w6MG60vtErpl/V8+7xiG0r22MRpKt5pEdId/Xg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Oct 2025 16:58:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GP+v3w6MG60vtErpl/V8+7xiG0r22MRpKt5pEdId/Xg="
+        }
+      ]
+    },
+    {
       "Route": "images/logoefestia.4l6zjsh8k0.png",
       "AssetFile": "images/logoefestia.png",
       "Selectors": [],
@@ -409,6 +491,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-GP+v3w6MG60vtErpl/V8+7xiG0r22MRpKt5pEdId/Xg="
+        }
+      ]
+    },
+    {
+      "Route": "images/logoniokaji (1).n1h8zycba0.png",
+      "AssetFile": "images/logoniokaji (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S1Oco0niXbRdBZjR6GJfA+N0iiwezZYf+zHHz9T2psg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Oct 2025 16:58:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n1h8zycba0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S1Oco0niXbRdBZjR6GJfA+N0iiwezZYf+zHHz9T2psg="
+        },
+        {
+          "Name": "label",
+          "Value": "images/logoniokaji (1).png"
+        }
+      ]
+    },
+    {
+      "Route": "images/logoniokaji (1).png",
+      "AssetFile": "images/logoniokaji (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S1Oco0niXbRdBZjR6GJfA+N0iiwezZYf+zHHz9T2psg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Oct 2025 16:58:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S1Oco0niXbRdBZjR6GJfA+N0iiwezZYf+zHHz9T2psg="
         }
       ]
     },
@@ -5575,6 +5739,88 @@
         {
           "Name": "label",
           "Value": "videos/1c411090-cd3f-473a-b389-92574cabdb93.mp4"
+        }
+      ]
+    },
+    {
+      "Route": "videos/IA_Cria_Vídeo_Futurista_e_Tecnológico.mp4",
+      "AssetFile": "videos/IA_Cria_Vídeo_Futurista_e_Tecnológico.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2352485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4xqjPLwWff0GxeH8WVJUvvgZApiKcuLXolcAbn1O1+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Oct 2025 12:57:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4xqjPLwWff0GxeH8WVJUvvgZApiKcuLXolcAbn1O1+c="
+        }
+      ]
+    },
+    {
+      "Route": "videos/IA_Cria_Vídeo_Futurista_e_Tecnológico.zs564931d8.mp4",
+      "AssetFile": "videos/IA_Cria_Vídeo_Futurista_e_Tecnológico.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2352485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4xqjPLwWff0GxeH8WVJUvvgZApiKcuLXolcAbn1O1+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 19 Oct 2025 12:57:31 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zs564931d8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4xqjPLwWff0GxeH8WVJUvvgZApiKcuLXolcAbn1O1+c="
+        },
+        {
+          "Name": "label",
+          "Value": "videos/IA_Cria_Vídeo_Futurista_e_Tecnológico.mp4"
         }
       ]
     }
