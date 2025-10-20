@@ -277,6 +277,10 @@
       "PackagePath": "staticwebassets\\videos\\1c411090-cd3f-473a-b389-92574cabdb93.mp4"
     },
     {
+      "Id": "C:\\Users\\231.918058\\Documents\\efestiamvc\\wwwroot\\videos\\Vídeo_de_IA_Interagindo_com_Tela.mp4",
+      "PackagePath": "staticwebassets\\videos\\Vídeo_de_IA_Interagindo_com_Tela.mp4"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.efestiamvc.props",
       "PackagePath": "build\\efestiamvc.props"
     },
