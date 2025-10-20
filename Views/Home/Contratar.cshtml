@@ -1,0 +1,80 @@
+@{
+    ViewData["Title"] = "EfestIA - Forjando Defesas Inteligentes para Você";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contratar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css">
+    <link rel="stylesheet" href="~/css/estilos.css" asp-append-version="true">
+</head>
+
+<body>
+
+    <header class="hero-section">
+        <nav>
+        <a href="index.cshtml#sobre"></a>
+        <a href="index.cshtml#servicos"></a>
+        <a href="index.cshtml#contato"></a>
+        <a href="contratar.cshtml"></a>
+        </nav>
+
+        <video autoplay loop muted playsinline class="video-background">
+            <source src="~/videos/IA_Cria_Vídeo_Futurista_e_Tecnológico.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+
+        <div class="video-overlay"></div>
+
+        <div class="hero-content">
+            <h1>Bem-vindo ao <span class="destaque-futuro">Futuro</span></h1>
+            <div>
+                <a href="#outra-secao">
+                    <button id="btnContrata">Contratar</button>
+                </a>
+            </div>
+
+    </header>
+
+    <main class="outra-secao" id="outra-secao">
+        <h2>Conecte-se ao Futuro com <span class="destaque-efestia">EfestIA</span></h2>
+        <div class="contato-formulario">
+            <h3>Vem ser <span class="destaque-efestia">EfestIA</span></h3>
+            <form action="">
+                <div class="form-group">
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="CNPJ" id="CNPJ" placeholder="Digite seu CNPJ" required minlength="14" maxlength="14">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="tel" name="telefone" placeholder="Digite seu telefone" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Confirme sua senha" required>
+                </div>
+                <div>
+                    <button type="submit" class="btn-enviar">Avançar</button>
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
