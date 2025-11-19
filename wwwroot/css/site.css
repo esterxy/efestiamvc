@@ -197,3 +197,149 @@ body {
     white-space: nowrap;
 }
 }
+.holographic-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, #000000, #0a0a1a, #000000);
+    pointer-events: none;
+}
+
+/* Container das ondas */
+.wave-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Ondas animadas */
+.wave {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    opacity: 0.05;
+}
+
+.wave-1 {
+    background: radial-gradient(ellipse at center, transparent 0%, transparent 40%, #0066ff 50%, transparent 60%);
+    animation: wave-animation-1 20s ease-in-out infinite;
+    left: -50%;
+    top: -50%;
+}
+
+.wave-2 {
+    background: radial-gradient(ellipse at center, transparent 0%, transparent 40%, #00ffff 50%, transparent 60%);
+    animation: wave-animation-2 25s ease-in-out infinite;
+    left: -50%;
+    top: -50%;
+}
+
+.wave-3 {
+    background: radial-gradient(ellipse at center, transparent 0%, transparent 40%, #4d4dff 50%, transparent 60%);
+    animation: wave-animation-3 30s ease-in-out infinite;
+    left: -50%;
+    top: -50%;
+}
+
+/* Linhas horizontais */
+.lines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        repeating-linear-gradient(
+            0deg,
+            transparent,
+            transparent 2px,
+            rgba(100, 150, 255, 0.01) 2px,
+            rgba(100, 150, 255, 0.01) 4px
+        );
+    animation: lines-scroll 20s linear infinite;
+}
+
+/* Container de partículas */
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.particle {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: rgba(100, 150, 255, 0.3);
+    border-radius: 50%;
+    animation: particle-float 15s ease-in-out infinite;
+}
+
+/* Animações das ondas */
+@keyframes wave-animation-1 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    33% { transform: translate(10%, 10%) rotate(120deg); }
+    66% { transform: translate(-5%, 15%) rotate(240deg); }
+}
+
+@keyframes wave-animation-2 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg) scale(1.1); }
+    33% { transform: translate(-10%, 15%) rotate(120deg) scale(1); }
+    66% { transform: translate(15%, -5%) rotate(240deg) scale(1.1); }
+}
+
+@keyframes wave-animation-3 {
+    0%, 100% { transform: translate(0, 0) rotate(0deg) scale(0.9); }
+    33% { transform: translate(15%, -10%) rotate(120deg) scale(1); }
+    66% { transform: translate(-10%, 10%) rotate(240deg) scale(0.9); }
+}
+
+@keyframes lines-scroll {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(50px); }
+}
+
+@keyframes particle-float {
+    0%, 100% { transform: translate(0, 0); opacity: 0; }
+    10% { opacity: 0.5; }
+    90% { opacity: 0.5; }
+    100% { transform: translate(100vw, -100vh); opacity: 0; }
+}
+
+
+
+@media (max-width: 768px) {
+    
+    .hero h1 { font-size: 2.5rem; }
+    .hero p { font-size: 1rem; }
+    .section-title { font-size: 2rem; }
+    .section { padding: 60px 0; }
+
+    
+    .main-header .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    
+    .main-nav ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-nav a {
+        font-size: 0.9rem;
+    }
+
+    
+    .service-card { padding: 25px; }
+    
+    .cta-button {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+        white-space: nowrap;
+    }
+}

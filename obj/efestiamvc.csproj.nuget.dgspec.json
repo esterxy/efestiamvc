@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\231.918058\\Documents\\efestiamvc\\efestiamvc.csproj": {}
+    "C:\\Users\\231.918058\\efestiamvc\\efestiamvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\231.918058\\Documents\\efestiamvc\\efestiamvc.csproj": {
+    "C:\\Users\\231.918058\\efestiamvc\\efestiamvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\231.918058\\Documents\\efestiamvc\\efestiamvc.csproj",
+        "projectUniqueName": "C:\\Users\\231.918058\\efestiamvc\\efestiamvc.csproj",
         "projectName": "efestiamvc",
-        "projectPath": "C:\\Users\\231.918058\\Documents\\efestiamvc\\efestiamvc.csproj",
+        "projectPath": "C:\\Users\\231.918058\\efestiamvc\\efestiamvc.csproj",
         "packagesPath": "C:\\Users\\231.918058\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\231.918058\\Documents\\efestiamvc\\obj\\",
+        "outputPath": "C:\\Users\\231.918058\\efestiamvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\231.918058\\AppData\\Roaming\\NuGet\\NuGet.Config",
